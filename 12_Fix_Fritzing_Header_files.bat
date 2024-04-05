@@ -32,7 +32,7 @@ call "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliar
 
 cd /d %currennt_dir%
 
-C:\Qt\6.5.3\msvc2019_64\bin\qmake.exe -o Makefile phoenix.pro "QMAKE_TARGET.arch=x86_64"
+C:\Qt\6.5.5\msvc2019_64\bin\qmake.exe -o Makefile phoenix.pro "QMAKE_TARGET.arch=x86_64"
 C:\Qt\Tools\QtCreator\bin\jom\jom.exe -f Makefile.Debug compiler_uic_make_all
 DIR ..\debug64\ui_*.h
 xcopy ..\debug64\*.h ..\fritzing_h\
