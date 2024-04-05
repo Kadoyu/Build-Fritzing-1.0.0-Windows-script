@@ -16,7 +16,7 @@ git rev-parse --git-dir
 set currennt_dir=%cd%
 
 echo qtenv2.bat
-call C:\Qt\6.5.3\msvc2019_64\bin\qtenv2.bat
+call C:\Qt\6.5.5\msvc2019_64\bin\qtenv2.bat
 
 echo x64 Native Tools Command Prompt for VS 2019
 call "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build\vcvars64.bat"
@@ -24,7 +24,7 @@ call "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliar
 cd /d %currennt_dir%
 
 echo qmake
-C:/Qt/6.5.3/msvc2019_64/bin/qmake.exe phoenix.pro ^
+C:/Qt/6.5.5/msvc2019_64/bin/qmake.exe phoenix.pro ^
   -spec win32-msvc ^
   INCLUDEPATH+="..\svgpp-1.3.0\include" ^
   INCLUDEPATH+="..\ngspice-40\src\include"
