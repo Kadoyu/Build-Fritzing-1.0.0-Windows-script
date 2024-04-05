@@ -10,7 +10,7 @@ cd .\release64
 
 if not exist Fritzing.exe goto failed
 
-C:\Qt\6.5.3\msvc2019_64\bin\windeployqt6.exe Fritzing.exe
+C:\Qt\6.5.5\msvc2019_64\bin\windeployqt6.exe Fritzing.exe
 
 cd ..
 
