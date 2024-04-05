@@ -11,10 +11,10 @@ cd /d \00_fritzing
 
 rem https://github.com/Kadoyu/CSharp_DownloadFile
 rem echo C# DownloadFile from URL
-rem bitsadmin /TRANSFER hoge https://github.com/Kadoyu/CSharp_DownloadFile/releases/download/v0.0/DownloadFile.exe %cd%\DownloadFile.exe
+rem bitsadmin /TRANSFER hoge https://github.com/FREEWING-JP/CSharp_DownloadFile/releases/download/v0.0/DownloadFile.exe %cd%\DownloadFile.exe
 
 echo C# DownloadFile source code from URL
-bitsadmin /TRANSFER hoge https://raw.githubusercontent.com/Kadoyu/CSharp_DownloadFile/main/DownloadFile.cs %cd%\DownloadFile.cs
+bitsadmin /TRANSFER hoge https://raw.githubusercontent.com/FREEWING-JP/CSharp_DownloadFile/main/DownloadFile.cs %cd%\DownloadFile.cs
 
 echo Build DownloadFile.exe
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc DownloadFile.cs
