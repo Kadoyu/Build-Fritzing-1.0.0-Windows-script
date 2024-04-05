@@ -25,7 +25,7 @@ rem DownloadFile https://aka.ms/vs/17/release/vs_BuildTools.exe vs_BuildTools_20
 
 rem https://www.qt.io/download-qt-installer-oss
 echo Qt Qt6
-if not exist qt-unified-windows-x64-4.6.1-online.exe DownloadFile https://d13lb3tujbc8s0.cloudfront.net/onlineinstallers/qt-unified-windows-x64-4.6.1-online.exe qt-unified-windows-x64-4.6.1-online.exe
+if not exist qt-unified-windows-x64-4.7.0-online.exe DownloadFile https://d13lb3tujbc8s0.cloudfront.net/onlineinstallers/qt-unified-windows-x64-4.7.0-online.exe qt-unified-windows-x64-4.7.0-online.exe
 
 rem https://www.boost.org/users/history/version_1_81_0.html
 echo Boost Version 1.81.0
@@ -60,7 +60,7 @@ rem check download files
 if not exist PortableGit-2.42.0.2-64-bit.7z.exe goto failed
 if not exist 7zr.exe goto failed
 if not exist vs_BuildTools_2019.exe goto failed
-if not exist qt-unified-windows-x64-4.6.1-online.exe goto failed
+if not exist qt-unified-windows-x64-4.7.0-online.exe goto failed
 if not exist boost_1_81_0.zip goto failed
 if not exist zlib.tar.gz goto failed
 if not exist ngspice-42.tar.gz goto failed
