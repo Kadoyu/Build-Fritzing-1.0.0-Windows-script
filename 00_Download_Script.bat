@@ -9,7 +9,7 @@ cd \
 mkdir \00_fritzing
 cd /d \00_fritzing
 
-rem https://github.com/Kadoyu/CSharp_DownloadFile
+rem https://github.com/FREEWING-JP/CSharp_DownloadFile
 rem echo C# DownloadFile from URL
 rem bitsadmin /TRANSFER hoge https://github.com/FREEWING-JP/CSharp_DownloadFile/releases/download/v0.0/DownloadFile.exe %cd%\DownloadFile.exe
 
