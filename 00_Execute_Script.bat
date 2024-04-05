@@ -6,7 +6,7 @@ echo %0
 cd /d \00_fritzing
 
 start /wait 02_Download_Requirement_Files.bat
-start /wait 03_Install_Qt_6.bat
+start /wait 03_Install_Qt_65.bat
 start /wait 04_Install_Visual_Studio_Build_Tools_2019.bat
 start /wait 05_Extract_Requirement_Files.bat
 start /wait 06_Download_from_Git.bat
