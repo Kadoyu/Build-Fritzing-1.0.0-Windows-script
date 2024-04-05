@@ -70,7 +70,7 @@ cd quazip-1.4
 
 dir ..\zlib-src\build64\Release\zlib.lib
 
-set Qt6_DIR=C:\Qt\6.5.3\msvc2019_64
+set Qt6_DIR=C:\Qt\6.5.5\msvc2019_64
 dir %Qt6_DIR%
 
 rmdir /S /Q build64
@@ -78,7 +78,7 @@ mkdir build64
 cmake -S . -B build64 ^
   -G "Visual Studio 16 2019" -A x64 ^
   -D QUAZIP_QT_MAJOR_VERSION=6 ^
-  -D CMAKE_INSTALL_PREFIX=..\quazip-6.5.3-1.4 ^
+  -D CMAKE_INSTALL_PREFIX=..\quazip-6.5.5-1.4 ^
   -D QUAZIP_USE_QT_ZLIB=OFF ^
   -D ZLIB_INCLUDE_DIR=..\zlib-src ^
   -D ZLIB_LIBRARY=%cd%\..\zlib-src\build64\Release\zlib.lib
