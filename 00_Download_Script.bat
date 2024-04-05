@@ -21,7 +21,7 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc DownloadFile.cs
 
 rem https://github.com/Kadoyu/CSharp_UnZip
 echo C# UnZip .Net 4.5
-if not exist UnZip.exe DownloadFile https://github.com/Kadoyu/CSharp_UnZip/releases/download/v0.0/UnZip.exe UnZip.exe
+if not exist UnZip.exe DownloadFile https://github.com/FREEWING-JP/CSharp_UnZip/releases/download/v0.0/UnZip.exe UnZip.exe
 
 rem https://github.com/FREEWING-JP/Build-Fritzing-1.0.0-Windows-script
 echo Build Fritzing 1.0.0 Windows script
