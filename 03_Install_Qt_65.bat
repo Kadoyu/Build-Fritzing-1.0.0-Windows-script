@@ -1,5 +1,5 @@
 @echo off
-rem 03_Install_Qt_653.bat
+rem 03_Install_Qt_65.bat
 rem http://www.neko.ne.jp/~freewing/software/build_fritzing_100_windows/
 rem Copyright (c) 2023 FREE WING,Y.Sakamoto
 echo %0
@@ -7,7 +7,7 @@ timeout /T 10 /NOBREAK
 @echo off
 cd /d \00_fritzing
 
-if exist "C:\Qt\6.5.3\msvc2019_64" exit
+if exist "C:\Qt\6.5.5\msvc2019_64" exit
 
 
 echo .
@@ -72,9 +72,9 @@ echo   --accept-licenses ^^>>qt_inst.bat
 echo   --accept-messages ^^>>qt_inst.bat
 echo   --confirm-command ^^>>qt_inst.bat
 echo   --auto-answer telemetry-question=No ^^>>qt_inst.bat
-echo   install qt.qt6.653.win64_msvc2019_64 ^^>>qt_inst.bat
-echo   install qt.qt6.653.addons ^^>>qt_inst.bat
-echo   install qt.qt6.653.qt5compat>>qt_inst.bat
+echo   install qt.qt6.655.win64_msvc2019_64 ^^>>qt_inst.bat
+echo   install qt.qt6.655.addons ^^>>qt_inst.bat
+echo   install qt.qt6.655.qt5compat>>qt_inst.bat
 
 @echo on
 
