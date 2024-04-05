@@ -65,7 +65,7 @@ pause
 :auto_agree
 
 echo cd /d %cd%>qt_inst.bat
-echo qt-unified-windows-x64-4.6.1-online.exe --root C:\Qt ^^>>qt_inst.bat
+echo qt-unified-windows-x64-4.7.0-online.exe --root C:\Qt ^^>>qt_inst.bat
 echo   --email %Qt_email% ^^>>qt_inst.bat
 echo   --pw    %Qt_passw% ^^>>qt_inst.bat
 echo   --accept-licenses ^^>>qt_inst.bat
