@@ -6,14 +6,14 @@ echo %0
 timeout /T 10 /NOBREAK
 cd /d \00_fritzing
 
-dir .\quazip-6.5.3-1.4\include\QuaZip-Qt6-1.4\quazip
-xcopy .\quazip-6.5.3-1.4\include\QuaZip-Qt6-1.4\quazip .\quazip-6.5.3-1.4\include\quazip\
+dir .\quazip-6.5.5-1.4\include\QuaZip-Qt6-1.4\quazip
+xcopy .\quazip-6.5.5-1.4\include\QuaZip-Qt6-1.4\quazip .\quazip-6.5.5-1.4\include\quazip\
 
-dir .\quazip-6.5.3-1.4\bin
-dir .\quazip-6.5.3-1.4\lib
-xcopy .\quazip-6.5.3-1.4\bin .\quazip-6.5.3-1.4\build64\Release\
-xcopy .\quazip-6.5.3-1.4\lib\*.lib .\quazip-6.5.3-1.4\build64\Release\
-dir .\quazip-6.5.3-1.4\build64\Release\
+dir .\quazip-6.5.5-1.4\bin
+dir .\quazip-6.5.5-1.4\lib
+xcopy .\quazip-6.5.5-1.4\bin .\quazip-6.5.5-1.4\build64\Release\
+xcopy .\quazip-6.5.5-1.4\lib\*.lib .\quazip-6.5.5-1.4\build64\Release\
+dir .\quazip-6.5.5-1.4\build64\Release\
 
 exit
 
